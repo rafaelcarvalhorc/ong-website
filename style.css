@@ -34,7 +34,7 @@
 }
 
 .header__button {
- /*  background-color: var(--preto);
+  /*  background-color: var(--preto);
   border: none;
   border-radius: 20px;
   padding: 14px;
@@ -48,10 +48,8 @@
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-  transition: all .3s;
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
-
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 .header__button:hover {
   background-color: var(--laranja);
@@ -80,7 +78,7 @@
   }
 
   .container__teste i {
-    display: none;
+    display: flex;
+    row-gap: 10px;
   }
-  
 }
